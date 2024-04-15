@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: url("/E-vape/main-asest/a.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.c-logo-img {
+  width: 200px;
+}
+
+.c-menu {
+  gap: 2rem;
+}
+
+.c-home {
+  height: 100vh;
+}
+
+.c-btn-login {
+  width: 150px;
+}
+
+.c-btn-signup {
+  width: 150px;
+}
+
+.c-home-img {
+  margin-top: 11%;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.c-item {
+  height: 100vh;
+}
+
+.c-item-img {
+  margin-top: 5rem;
+}
+
+.c-cap {
+  margin-top: 15rem;
+}
+
+.c-cards-img {
+  width: 150px;
+}
+
+@media (max-width: 360px) {
+  .c-menu {
+    gap: 0;
+  }
+
+  .c-item-img {
+    margin-top: 2rem;
+    width: 20rem;
+  }
+
+  .c-cap {
+    margin-top: 0.5rem;
+  }
+
+  .c-product {
+    margin-left: 3rem;
+  }
+}
